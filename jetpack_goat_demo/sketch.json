@@ -1,0 +1,47 @@
+{
+    "SketchWidth": 1000,
+    "SketchHeight": 1000,
+    "ControlWidth": 240,
+    "Sliders": [
+        {
+            "Name": "luminosity",
+            "MinVal": 0,
+            "MaxVal": 1,
+            "Val": 1.0,
+            "Incr": 0.01
+        },
+        {
+            "Name": "probability",
+            "MinVal": 0,
+            "MaxVal": 1.0,
+            "Val": 0.025,
+            "Incr": 0.01
+        },
+        {
+            "Name": "pointsPerTick",
+            "MinVal": 1,
+            "MaxVal": 5000,
+            "Val": 1000,
+            "Incr": 1
+        }
+
+    ],
+    "Toggles": [
+        {
+            "Name": "Show Image",
+            "Checked": true
+        },
+        {
+            "Name": "Show Points",
+            "Checked": true
+        },
+        {
+            "Name": "Activate Jetpack Goat!",
+            "IsButton": true
+        }
+    ],
+    "SketchBackgroundColor": "#1e1e1e",
+    "SketchOutlineColor": "",
+    "ControlBackgroundColor": "#1e1e1e",
+    "ControlOutlineColor": "#ffdb00"
+}
